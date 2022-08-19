@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Over+the+Rainbow&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
 
     .text-cursive{
         font-family: 'Over the Rainbow', cursive;
@@ -7,4 +8,9 @@
 
     .text-title{
         font-family: 'Alumni Sans Inline One', cursive;
+    }
+
+    .new-text-title{
+        font-family: 'Rubik Dirt', cursive;
+        padding: 5px;
     }
