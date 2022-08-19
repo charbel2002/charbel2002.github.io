@@ -16,7 +16,7 @@
                     <div class="effect-title text-title">${effect.name}</div>
                     <div class="effect-type text-cursive">${effect.type}</div>
                     <div class="effect-image"><img src="${effect.imagelink}"></div>
-                    <div class="effect-link"> <a href="${effect.link}" class="effect-button-blue text-cursive"> Voir &rarr; </a> </div>
+                    <div class="effect-link"> <a target="_blank" href="${effect.link}" class="effect-button-blue text-cursive"> Voir &rarr; </a> </div>
                 
                 `;
 

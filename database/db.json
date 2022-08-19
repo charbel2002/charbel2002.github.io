@@ -1,7 +1,7 @@
 [
     {
-        "name":"One",
-        "link":"",
+        "name":"Scale effect",
+        "link":"/effects/scale-effect",
         "imagelink":"images/sample.jpg",
         "type":"Effect"
     },
