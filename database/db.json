@@ -2,31 +2,7 @@
     {
         "name":"Scale effect",
         "link":"/effects/scale-effect",
-        "imagelink":"images/sample.jpg",
-        "type":"Effect"
-    },
-    {
-        "name":"Two",
-        "link":"",
-        "imagelink":"images/sample.jpg",
-        "type":"Interface"
-    },
-    {
-        "name":"Three",
-        "link":"",
-        "imagelink":"images/sample.jpg",
-        "type":"Interface"
-    },
-    {
-        "name":"Four",
-        "link":"",
-        "imagelink":"images/sample.jpg",
-        "type":"Interface"
-    },
-    {
-        "name":"Four",
-        "link":"",
-        "imagelink":"images/sample.jpg",
+        "imagelink":"images/scale_effect.png",
         "type":"Effect"
     }
 ]
