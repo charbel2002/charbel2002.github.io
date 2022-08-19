@@ -18,17 +18,49 @@
             transform: translateX(300%) translateY(-50%) rotateZ(360deg);
         }
         100%{
-            transform: translateX(300%) translateY(-50%) rotateZ(360deg) rotateZ(90deg) translateY(-400%) scale(3) translateX(50%);
+            transform: translateX(300%) translateY(-50%) rotateZ(360deg) rotateZ(90deg) translateY(-400%) scale(2.5) translateX(50%);
         }
         
     }
 
-    .brick{
-        width: 150px;
-        height: 70px;
-        transition: all 1s;
-        background-color: rgba(201, 80, 25,0.6);
-        animation: scale-effect 2s linear;
-        animation-timing-function: ease-in-out;
-        animation-fill-mode: forwards;
+    @media screen and (min-width:1000px) {
+
+        .brick{
+            width: 15%;
+            height: 50px;
+            transition: all 1s;
+            background-color: rgba(201, 80, 25,0.6);
+            animation: scale-effect 2s linear;
+            animation-timing-function: ease-in-out;
+            animation-fill-mode: forwards;
+        }
+
+    }
+
+    @media screen and (min-width:600px) and (max-width:999.999px) {
+
+        .brick{
+            width: 15%;
+            height: 50px;
+            transition: all 1s;
+            background-color: rgba(201, 80, 25,0.6);
+            animation: scale-effect 2s linear;
+            animation-timing-function: ease-in-out;
+            animation-fill-mode: forwards;
+        }
+
+    }
+
+    @media screen and (max-width:599.99px) {
+
+        .brick{
+            width: 9%;
+            height: 30px;
+            transition: all 1s;
+            background-color: rgba(201, 80, 25,0.6);
+            animation: scale-effect 2s linear;
+            animation-timing-function: ease-in-out;
+            animation-fill-mode: forwards;
+        }
+
     }
