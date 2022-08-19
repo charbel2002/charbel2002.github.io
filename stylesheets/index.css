@@ -14,6 +14,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            font-size: 35px;
         }
 
         #effects-link{
@@ -26,6 +27,47 @@
             background-color: rgb(236, 236, 236);
             min-height: 300px;
             margin-top: 45px;
+            position: relative;
+        }
+
+        #before-container{
+            position: absolute;
+            width: 30%;
+            height: 40px;
+            color: white;
+            background-color: rgb(27, 67, 107);
+            box-shadow: 1px 1px 20px 2px rgb(116, 116, 116);
+            top: -20px;
+            left: 0px;
+            right: 0px;
+            margin: auto;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 15px;
+        }
+
+        #before-container::before{
+            content: " ";
+            border-style: solid;
+            border-width: 15px;
+            border-color: rgb(19, 40, 61) transparent transparent transparent;
+            position: absolute;
+            top: 0px;
+            right: 100%;
+            transform: translateX(15px) translateY(5px) rotate(-45deg);
+        }
+
+        #before-container::after{
+            content: " ";
+            border-style: solid;
+            border-width: 15px;
+            border-color: rgb(19, 40, 61) transparent transparent transparent;
+            position: absolute;
+            top: 0px;
+            left: 100%;
+            transform: translateX(-15px) translateY(5px) rotate(45deg);
         }
 
         footer{
