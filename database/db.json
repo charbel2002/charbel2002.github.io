@@ -4,5 +4,11 @@
         "link":"/effects/scale-effect",
         "imagelink":"images/scale_effect.png",
         "type":"Effect"
+    },
+    {
+        "name":"Cube effect",
+        "link":"/effects/cube-effect",
+        "imagelink":"images/cube-effect.png",
+        "type":"Effect"
     }
 ]
