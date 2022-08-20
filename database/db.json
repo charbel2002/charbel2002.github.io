@@ -11,4 +11,11 @@
         "imagelink":"images/cube-effect.png",
         "type":"Effect"
     }
+    ,
+    {
+        "name":"Portfolio integration",
+        "link":"/integrations/portfolio-all-js",
+        "imagelink":"images/cube-effect.png",
+        "type":"Integration"
+    }
 ]
