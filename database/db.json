@@ -13,9 +13,9 @@
     }
     ,
     {
-        "name":"Portfolio integration",
-        "link":"/integrations/portfolio-all-js",
-        "imagelink":"images/cube-effect.png",
-        "type":"Integration"
+        "name":"Space 3d",
+        "link":"/effects/space3d",
+        "imagelink":"images/space3d.png",
+        "type":"Effect"
     }
 ]
